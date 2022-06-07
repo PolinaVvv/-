@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(231, 205, 175);
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+  }
+  input {
+    font-size: 1.1em;
+  }
+  button {
+    font-size: 2.5em;
+  }
+  .class1{
+    width: 1.2em;
+    height: 1.3em;
+  }
+  .awesome {
+    font-size: larger;
+    color: #8a53d3;
+    padding-left: 2cm;
+  }
+  .size1 {
+    width: 400px;
+  }
+  .position1 {
+    display: flex;
+    justify-content: center;
+  }
+  .positionAndSize {
+    position: absolute;
+    width: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+  }
+  .awesome3 {
+    color: #2b2730;
+  }

@@ -29,6 +29,7 @@ button {
 .position1 {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .position-and-size {
   position: absolute;

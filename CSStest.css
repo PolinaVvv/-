@@ -30,7 +30,7 @@ button {
   display: flex;
   justify-content: center;
 }
-.positionAndSize {
+.position-and-size {
   position: absolute;
   width: 100px;
   top: calc(50% - 50px);

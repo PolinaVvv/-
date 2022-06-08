@@ -25,6 +25,7 @@ body {
   }
   .size1 {
     width: 400px;
+    cursor: pointer;
   }
   .position1 {
     display: flex;
@@ -36,6 +37,8 @@ body {
     width: 100px;
     top: calc(50% - 50px);
     left: calc(50% - 50px);
+    opacity: 0;
+    cursor: pointer;
   }
   .awesome3 {
     color: #2b2730;

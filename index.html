@@ -2,20 +2,53 @@
 
 <html>
   <head>
-    <title>Hi всем</title>
-    <link rel="stylesheet" type="text/css" href="./CSStest.css" />
-  </head>
-  <body>
-    <!-- <script src = "ModalWindow.js"></script>
-        <script src = "Task2.js"></script> -->
-    <!-- <script src="Task3.js"></script> -->
+    <!--кодировка-->
+    <meta charset="utf-8" />
 
-    <h1><b>Вот вам картинки милых котиков! </b></h1>
-    <i class="awesome"> 1. Котик №1 </i>
-    <details class="awesome3">
+    <title>Hi всем</title>
+
+    <!--для адаптации-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="./CSStest.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1><b>Вот вам картинки милых котиков! </b></h1>
+    </div>
+    <p class="text-secondary" class="h6">1. Котик №1</p>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Читать больше о котике
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item" href="#"
+            >Он очень мило сиди и его носик как сердечко!</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- <details class="awesome3">
       <summary>Читать больше о котике:</summary>
       Он очень мило сиди и его носик как сердечко!
-    </details>
+    </details> -->
     <div class="position1">
       <img
         class="size1"
@@ -27,15 +60,51 @@
         id="para1"
       />
     </div>
-    <p>
-      Ваша оценка котика от 10 до 10: <input type="number" max="10" min="10" />
-    </p>
 
-    <i class="awesome"> 2. Котик №2 </i>
-    <details class="awesome3">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="kit1"
+          >Ваша оценка котика от 10 до 10:
+        </span>
+      </div>
+      <input
+        type="number"
+        max="10"
+        min="10"
+        class="form"
+        aria-label="Series and number of the passport"
+        aria-describedby="kit1"
+      />
+    </div>
+    <!-- <p>
+      Ваша оценка котика от 10 до 10: <input type="number" max="10" min="10" />
+    </p> -->
+
+    <p class="text-secondary" class="h6">2. Котик №2</p>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Читать больше о котике
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item" href="#"
+            >Котик играет с пальцами хозяина &lt;3!</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- <details class="awesome3">
       <summary>Читать больше о котике:</summary>
       Котик играет с пальцами хозяина &lt;3!
-    </details>
+    </details> -->
+
     <div class="position1">
       <img
         class="size1"
@@ -46,17 +115,52 @@
         src="https://n1s1.hsmedia.ru/4c/e5/79/4ce5794ae26ebe7b0375a079d4cbedea/332x331_1_bb4868657ac3cfb32439eab2474eed0e@712x709_0xac120003_4638627451615832336.jpg"
       />
     </div>
-    <p>Ваша оценка котика от 10 до 10: <input readonly value="10" /></p>
 
-    <a href="https://vk.com/"> <b>ВК</b> </a>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="kit2"
+          >Ваша оценка котика от 10 до 10:
+        </span>
+      </div>
+      <input
+        readonly
+        value="10"
+        class="form"
+        aria-label="Series and number of the passport"
+        aria-describedby="kit2"
+      />
+    </div>
 
-    <h1><b>И милые собачки! </b></h1>
+    <!-- <p>Ваша оценка котика от 10 до 10: <input readonly value="10" /></p> -->
 
-    <i class="awesome"> 3. Собачка №1 </i>
+    <div class="container-fluid">
+      <h1><b>И милые собачки! </b></h1>
+    </div>
+
+    <p class="text-secondary" class="h6">3. Собачка №1</p>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Читать больше о собачке
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item" href="#">Мило стоит!!!!!!!!</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <i class="awesome"> 3. Собачка №1 </i>
     <details class="awesome3">
       <summary>Читать больше о собачке:</summary>
       Мило стоит
-    </details>
+    </details> -->
     <div class="position1">
       <img
         class="size1"
@@ -67,15 +171,51 @@
         src="https://n1s1.hsmedia.ru/4c/e5/79/4ce5794ae26ebe7b0375a079d4cbedea/332x331_1_bb4868657ac3cfb32439eab2474eed0e@712x709_0xac120003_4638627451615832336.jpg"
       />
     </div>
-    <p>
-      Ваша оценка собачки от 10 до 10: <input type="number" max="10" min="10" />
-    </p>
 
-    <i class="awesome"> 4. Собачка №2 </i>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="dog1"
+          >Ваша оценка собачки от 10 до 10:
+        </span>
+      </div>
+      <input
+        type="number"
+        max="10"
+        min="10"
+        class="form"
+        aria-label="Series and number of the passport"
+        aria-describedby="dog1"
+      />
+    </div>
+
+    <!-- <p>
+      Ваша оценка собачки от 10 до 10: <input type="number" max="10" min="10" />
+    </p> -->
+
+    <p class="text-secondary" class="h6">4. Собачка №2</p>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Читать больше о собачке
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item" href="#">Мило бежит!!!!!!!!</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <i class="awesome"> 4. Собачка №2 </i>
     <details class="awesome3">
       <summary>Читать больше о собачке:</summary>
       Мило бежит
-    </details>
+    </details> -->
     <div class="position1">
       <img
         class="size1"
@@ -86,20 +226,94 @@
         src="https://n1s1.hsmedia.ru/4c/e5/79/4ce5794ae26ebe7b0375a079d4cbedea/332x331_1_bb4868657ac3cfb32439eab2474eed0e@712x709_0xac120003_4638627451615832336.jpg"
       />
     </div>
-    <p>Ваша оценка собачки от 10 до 10: <input readonly value="10" /></p>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="dog2"
+          >Ваша оценка собачки от 10 до 10:
+        </span>
+      </div>
+      <input
+        readonly
+        value="10"
+        class="form"
+        aria-label="Series and number of the passport"
+        aria-describedby="dog2"
+      />
+    </div>
+
+    <!-- <p>Ваша оценка собачки от 10 до 10: <input readonly value="10" /></p> -->
 
     <form action="https://ya.ru" method="get" id="form1">
-      <p>Ведите email: <input type="email" id="email" /></p>
-      <p>Ведите пароль: <input type="password" id="password" /></p>
-      <p>Серия и номер паспорта: <input type="text" id="text" /></p>
-      <p>
-        Оформляем кредит?
-        <input type="checkbox" class="class1" id="checkbox" />
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Ведите email:</span>
+        </div>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Email"
+          aria-label="Email"
+          aria-describedby="basic-addon1"
+          id="email"
+        />
+      </div>
+      <!-- <p>Ведите email: <input type="email" id="email" /></p> -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon2">Ведите пароль:</span>
+        </div>
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Password"
+          aria-label="Password"
+          aria-describedby="basic-addon2"
+          id="password"
+        />
+      </div>
+      <!-- <p>Ведите пароль: <input type="password" id="password" /></p> -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3"
+            >Серия и номер паспорта:
+          </span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Series and number of the passport"
+          aria-label="Series and number of the passport"
+          aria-describedby="basic-addon3"
+          id="text"
+        />
+      </div>
+      <!-- <p>Серия и номер паспорта: <input type="text" id="text" /></p> -->
+      <p class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary">
+          <input type="checkbox" autocomplete="off" id="checkbox" /> Оформляем
+          кредит?
+        </label>
       </p>
-      <button type="submit">тЕКСТ</button>
+      <div>
+        <button type="submit" class="btn btn-outline-dark btn-lg">тЕКСТ</button>
+      </div>
     </form>
 
     <script src="Animation.js"></script>
     <script src="FormProcessing.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- для всплывающих окон -->
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
   </body>
 </html>
+<!-- <a href="https://vk.com/"> <b>ВК</b> </a> -->

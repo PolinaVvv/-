@@ -244,7 +244,12 @@
 
     <!-- <p>Ваша оценка собачки от 10 до 10: <input readonly value="10" /></p> -->
 
-    <form action="https://ya.ru" method="get" id="form1">
+    <form
+      action="http://localhost/test"
+      target="_blank"
+      method="get"
+      id="form1"
+    >
       <div class="input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-group-text" id="basic-addon1">Ведите email:</span>
@@ -256,6 +261,7 @@
           aria-label="Email"
           aria-describedby="basic-addon1"
           id="email"
+          name="email"
         />
       </div>
       <!-- <p>Ведите email: <input type="email" id="email" /></p> -->
@@ -270,6 +276,7 @@
           aria-label="Password"
           aria-describedby="basic-addon2"
           id="password"
+          name="password"
         />
       </div>
       <!-- <p>Ведите пароль: <input type="password" id="password" /></p> -->
@@ -286,13 +293,19 @@
           aria-label="Series and number of the passport"
           aria-describedby="basic-addon3"
           id="text"
+          name="text"
         />
       </div>
       <!-- <p>Серия и номер паспорта: <input type="text" id="text" /></p> -->
       <p class="btn-group btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-secondary">
-          <input type="checkbox" autocomplete="off" id="checkbox" /> Оформляем
-          кредит?
+          <input
+            type="checkbox"
+            autocomplete="off"
+            id="checkbox"
+            name="checkbox"
+          />
+          Оформляем кредит?
         </label>
       </p>
       <div>

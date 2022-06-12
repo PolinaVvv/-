@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(231, 205, 175);
+  margin: 0em 2em 1em 2em !important;
 }
 h1 {
   color: rgb(0, 0, 0);
@@ -27,15 +27,17 @@ button {
   /* transition: all 0.5s ease-in; */
   width: 400px;
   cursor: pointer;
+  border-radius: 1em;
 }
-/* .size1:hover {
-  width: 10px;
-  cursor: pointer;
-} */
 .position1 {
   display: flex;
   justify-content: center;
   position: relative;
+  padding: 2% 3%;
+  border-radius: 5em;
+  outline: 2px solid #c7aee1;
+  margin: 2%;
+  background-color: #f2e9ff;
 }
 .position-and-size {
   position: absolute;
@@ -45,6 +47,26 @@ button {
   opacity: 0;
   cursor: pointer;
 }
-.awesome3 {
-  color: #2b2730;
+.form-view {
+  padding: 2% 10% 2% 10%;
+  background: #e2c7fe;
+  border-radius: 4em;
 }
+.div-form-view {
+  outline: 2px solid #c7aee1;
+  border: 1em solid #fff;
+  border-radius: 4em;
+}
+.label-color {
+  background-color: #deffd7;
+}
+.indent {
+  margin: 0em 0em 0em 2em !important;
+}
+.indent2 {
+  margin: 0em 0em 0em 4em !important;
+}
+/* .fon {
+  background-image: url('background_kit.jpg');
+  background-size: 100%
+} */

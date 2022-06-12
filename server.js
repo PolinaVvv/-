@@ -10,7 +10,7 @@ app.get('/test', (req, res) => {
   console.log(req.query)
   // res.send(JSON.stringify(req.query))
   res.send(
-    `че то ${req.query.email}, ещё че то ${req.query.password}, ого ещё че то ${req.query.text}, вау!!! ещё ответ на оформление кредита ${req.query.checkbox}`
+    `На Ваши ИФ ${req.query.name} ${req.query.surname} и паспортный данные ${req.query.series} ${req.query.number} оформлен кредит на сумму 500000000000$. А также бонусом на почту ${req.query.email} будет прилетать спам.Хорошего дня!`
   )
 })
 

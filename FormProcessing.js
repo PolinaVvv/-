@@ -3,7 +3,10 @@ const element = document.getElementById('form1')
 element.onsubmit = async function (evt) {
   evt.preventDefault() // отмена авт отправки
   const url = 'http://localhost/test'
-  // fetch(url, []).then(() => console.log('hi'))
+
+  //  Если возвращается промис resolve(если работа завершилась успешно), будет выполнена функция метода then()
+  // fetch(url).then(() => console.log('hi'))
+
   let formData = {
     surname: document.getElementById('surname').value,
     email: document.getElementById('email').value,
